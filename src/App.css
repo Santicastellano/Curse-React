@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/*NAVBAR*/
+
+.Navbar-menu{
+  list-style: none;
+  color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-around;
+  background-color: #282c34;
+  font-size: large;
+  margin: 0;
+
+
+}
+.Navbar-menu{
+  font-size: 25px;
+}
+.borde{
+  padding-left: 8px;
+  border-left: 2px solid white;
+}
+.borde a{
+  text-decoration: none;
+  color: grey
+}
+/*card*/
+
+
+
+

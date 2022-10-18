@@ -1,0 +1,21 @@
+const list = [
+    {
+        "name":"silla",
+        "image": "./chair.jpg",
+        "description": "Esto es una silla"
+
+    },
+    {
+        "name":"silla",
+        "image": "./chair.jpg",
+        "description": "Esto es una silla"
+
+    },
+    {
+        "name":"silla",
+        "image": "./chair.jpg",
+        "description": "Esto es una silla"
+
+    }
+
+]
