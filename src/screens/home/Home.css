@@ -63,8 +63,12 @@
   text-decoration: none;
   color: grey
 }
-/*card*/
-
+/*Titulo*/
+.Tittle{
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
 
 
 
