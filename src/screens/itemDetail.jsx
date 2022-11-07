@@ -13,6 +13,7 @@ const ItemDetail = () => {
                 itemList.map(item => {
                     if (tittle === item.tittle) {
                         console.log(item.tittle);
+                        
                     }
                 })
             }
