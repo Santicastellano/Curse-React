@@ -1,26 +1,19 @@
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useMemo } from "react";
 import { itemList } from "../API/itemList";
-import image from "../assets/chair.jpg"
 
 const ItemDetail = () => {
 
     let { tittle } = useParams();
-    // let [count, setCount] = useState(0);
+    const MyItem = useMemo(()=>itemList.find(i=>i.tittle===tittle),[tittle]);
     return (
         <div>
-            {
-                itemList.map(item => {
-                    if (tittle === item.tittle) {
-                        console.log(item.tittle);
-                        
-                    }
-                })
-            }
-            {tittle}
-            <div>nanananan</div>
+            <h1>{tittle}</h1>
+            <pre>
+                {JSON.stringify(MyItem,null,2)}
+            </pre>
+            <img width={800} src={MyItem.image} alt="imagen" />
         </div>
-
     )
 }
 export default ItemDetail;

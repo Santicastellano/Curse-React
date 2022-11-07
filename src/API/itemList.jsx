@@ -2,16 +2,16 @@ import image from "../../src/assets/chair.jpg"
 
 export const itemList = [
     {
-        image: { image },
+        image: image,
         category:"Bazar",
         tittle: "Silla de comedor",
-        paragraph: "parrafo1",
+        paragraph: "nasheeeee",
         description: "breve descripcion del producto1",
         price: "800",
         Deseado: false,
     },
     {
-        image: { image },
+        image: image ,
         category:"Entretenimiento",
         tittle: "Mesa de pool",
         paragraph: "parrafo2",
@@ -20,7 +20,7 @@ export const itemList = [
         Deseado: false,
     },
     {
-        image: { image },
+        image: image ,
         category:"Bazar",
         tittle: "Florero",
         paragraph: "parrafo3",
@@ -29,7 +29,7 @@ export const itemList = [
         Deseado: false,
     },
     {
-        image: { image },
+        image:  image ,
         category:"Entretenimiento",
         tittle: "monitor",
         paragraph: "parrafo4",
@@ -38,7 +38,7 @@ export const itemList = [
         Deseado: false,
     },
     {
-        image: { image },
+        image:  image ,
         category:"Bazar",
         tittle: "Tupper",
         paragraph: "parrafo5",
@@ -47,7 +47,7 @@ export const itemList = [
         Deseado: false,
     },
     {
-        image: { image },
+        image:  image ,
         category:"Bazar",
         tittle: "Balde",
         paragraph: "parrafo6",
@@ -57,7 +57,7 @@ export const itemList = [
 
     },
     {
-        image: { image },
+        image: image ,
         category:"Bazar",
         tittle: "Cuadro",
         paragraph: "parrafo7",
@@ -66,7 +66,7 @@ export const itemList = [
         Deseado: false,
     },
     {
-        image: { image },
+        image: image ,
         category:"Entretenimiento",
         tittle: "Joystick",
         paragraph: "parrafo8",
@@ -76,7 +76,7 @@ export const itemList = [
 
     },
     {
-        image: { image },
+        image:  image ,
         category:"Entretenimiento",
         tittle: "Teclado",
         paragraph: "parrafo9",
@@ -86,7 +86,7 @@ export const itemList = [
 
     },
     {
-        image: { image },
+        image:  image ,
         category:"Bazar",
         tittle: "Aromatizador",
         paragraph: "parrafo10",
