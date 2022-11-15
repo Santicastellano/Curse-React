@@ -13,7 +13,6 @@ const Card = ({image, tittle, price}) => {
                             <p>${price} </p>
                             
                         </div>
-                        <button> - Guardar - </button>
                 </div>
     
         

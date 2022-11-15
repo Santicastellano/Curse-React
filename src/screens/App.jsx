@@ -3,7 +3,7 @@ import Card from "../components/Card.jsx"
 import Navbar from '../components/nav'
 import { itemList } from '../API/itemList'
 import  { useState } from 'react'
-import image from "../assets/chair.jpg"
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +16,7 @@ function App() {
         {itemList.map(i => {
           console.log(count)
           return (
-            <Card image={image} tittle={i.tittle} price={i.price} />
+            <Card image={i.image} tittle={i.tittle} price={i.price} />
           )
         })}
       </section>

@@ -1,0 +1,13 @@
+
+
+.detail-card{
+    padding: 180px;
+    display: flex;
+    justify-content: space-around;
+    border: 0.5px solid grey;
+}
+
+.side-description{
+    border-left: 3px solid grey;
+    padding: 50px;
+}
